@@ -1,9 +1,9 @@
 name: Deploy to Aws Docker on merge
 'on':
-  push
+  push:
     branches:
       - prod-docker
-jobs
+jobs:
   docker: 
     runs-on: ubuntu-latest
     steps:
